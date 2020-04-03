@@ -1,0 +1,111 @@
+.carousel-content {
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    z-index: 30;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.tag{
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.aboutInfo{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#parallax {
+    background-image:url("/images/about.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials{
+    background-color: lightgray;
+}
+
+.t{
+    margin-top: 150px;
+}
+
+.contact p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+.btn-facebook {
+    background: #3B5998;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #263961; 
+}
+.btn-facebook:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+.btn-google {
+    background: #DD4B39;
+    color: white;
+}
+
+.btn-google:hover{
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+}
+
+.btn-linkedin:hover{
+    color: #0094BC;
+    background: #fff;
+    border-color: #0094BC;
+}
+
+.btn-twitter {
+    background: #00ACEE;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0075a2;
+}
+
+.btn-twitter:hover{
+    color: #00ABE3;
+    background: #fff;
+    border-color: #00ABE3;
+}
+
+.e{
+    background-color: lightcyan;
+}
